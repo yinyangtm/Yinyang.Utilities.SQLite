@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Versio>1.0.0</Versio>
+    <Description>Yinyang Utilities SQLite Samples</Description>
+    <Copyright>Copyright 2021 Yinyang</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Yinyang.Utilities.SQLite\Yinyang.Utilities.SQLite.csproj" />
+  </ItemGroup>
+
+</Project>
