@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities.SQLite", "Yinyang.Utilities.SQLite\Yinyang.Utilities.SQLite.csproj", "{A08D60EB-0DC0-4ECC-92C0-8A25093D08FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities.SQLite.Samples", "Yinyang.Utilities.SQLite.Samples\Yinyang.Utilities.SQLite.Samples.csproj", "{A31CB5B3-AB77-4D60-B205-ACACDFAED49D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A0136DB-A7E0-45FF-AFB4-784B3BABBA92}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+		release-notes.md = release-notes.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities.SQLite.Test", "Yinyang.Utilities.SQLite.Test\Yinyang.Utilities.SQLite.Test.csproj", "{5FAAD32C-8714-4DA2-85D8-82A586E67711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A08D60EB-0DC0-4ECC-92C0-8A25093D08FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08D60EB-0DC0-4ECC-92C0-8A25093D08FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08D60EB-0DC0-4ECC-92C0-8A25093D08FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08D60EB-0DC0-4ECC-92C0-8A25093D08FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31CB5B3-AB77-4D60-B205-ACACDFAED49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31CB5B3-AB77-4D60-B205-ACACDFAED49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31CB5B3-AB77-4D60-B205-ACACDFAED49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31CB5B3-AB77-4D60-B205-ACACDFAED49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FAAD32C-8714-4DA2-85D8-82A586E67711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FAAD32C-8714-4DA2-85D8-82A586E67711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FAAD32C-8714-4DA2-85D8-82A586E67711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FAAD32C-8714-4DA2-85D8-82A586E67711}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {579A7BFE-837B-457E-83A9-8EE89A4D3647}
+	EndGlobalSection
+EndGlobal
